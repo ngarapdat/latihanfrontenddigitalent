@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgba(17, 16, 16, 0.884);
+    color: aliceblue;
+    height: 120px;
+}
+.header-logo{
+    
+    font-size: 35px;
+    padding: 40px 40px;
+    letter-spacing: 5px;
+    float: left;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.header-list li{
+  float: left;
+  
+  padding: 45px 25px;
+  font-size: 20px;
+}
+.main{
+    
+    text-align: center;
+}
+
+.copy-container h1{
+     color: rgba(8, 7, 7, 0.623);
+    font-size: 80px;
+    
+}
+.copy-container h2{
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: rgb(66, 64, 66);
+}
+span{
+    color: yellow;
+}
+.copy-container img{
+    width: 25%;
+    height: 25%;
+}
+.tentang{
+    background-color: rgb(235, 224, 224);
+    
+    height: 300px;
+}
+.tentang h1{
+    font-weight: bold;
+}
+.tentang p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.gambar{
+    
+    height: 100px;
+}
+.content{
+    display:flex ;
+    margin-top: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.section-title{
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.flexbox img{
+width: 80%;
+height: 80%;
+}
+.kontak{
+    margin-top: 500px;
+    background-color: rgb(206, 201, 195);
+   
+    
+}
+input,textarea{
+  width:600px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  border-radius: 10px;
+}
+.contact-submit{
+  background-color:#f0ed44;
+  color:#131414;
+}
+
+.footer {
+  background-color: #474849;
+  color: #fff;
+  height: 150px;
+  padding: 40px;
+}
+.footer-logo {
+  float: left;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+ .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+
+}
